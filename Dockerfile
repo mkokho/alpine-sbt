@@ -6,4 +6,4 @@ RUN wget -O - http://dl.bintray.com/sbt/native-packages/sbt/0.13.12/sbt-0.13.12.
 
 ENV PATH="/usr/local/sbt/bin:${PATH}"
 
-RUN sb t
+RUN sbt
